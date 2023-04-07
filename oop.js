@@ -1,11 +1,14 @@
-let student={
+// constructor function in javascript
 
-   firstname:"Hindu",
-   LastName:"Ndundu",
-   AdmissionNo:1234
-   
-    
+function Student(firstname,LastName,email,AdmissionNo){
+   this.firstname=firstname;
+   this.email=email;
+   this.LastName=LastName;
+   this.AdmissionNo=AdmissionNo;
 }
 
-// console.log(student.AdmissionNo);
-console.log(student['firstname, LastName']);
+const Entry1=Student("mark","shija","plusmaxtechtz@gmail.com",1234);
+console.log(Student(Entry1.email));
+
+
+
